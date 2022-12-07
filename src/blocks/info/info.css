@@ -12,11 +12,11 @@
 
     .info {
         margin: 0 0 0 149px;
-        width: 1400px;
         padding: 118px 0 44px 0;
         position: relative;
         overflow: hidden;
         text-align: left;
+        width: auto;
     }
 
 }
