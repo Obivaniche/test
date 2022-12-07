@@ -1,0 +1,8 @@
+.info__main-image {
+    position: absolute;
+    bottom: 0;
+    left: 699px;
+    width: 400px;
+    height: 557px;
+    object-fit: cover;
+}

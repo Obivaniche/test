@@ -1,0 +1,22 @@
+.info__flag_another-2 {
+    width: 120px;
+    height: 120px;
+    transform: rotate(97deg);
+    animation: show-up-another-1 1s 4.6s forwards linear 1, rotate-another-2 10s 6s linear infinite;
+}
+
+@keyframes show-up-another-1 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        padding-bottom: 145px;
+    }
+}
+
+@keyframes rotate-another-2 {
+    100% {
+        transform:rotate(457deg);
+    }
+}

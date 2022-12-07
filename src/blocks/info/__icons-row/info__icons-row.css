@@ -1,0 +1,4 @@
+.info__icons-row {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,9 @@
+.info__flag {
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    bottom: 50%;
+    width: 0;
+    transform-origin: 0% 100%;
+    opacity: 0;
+}

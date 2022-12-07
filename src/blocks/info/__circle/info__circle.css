@@ -1,0 +1,9 @@
+.info__circle {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: #48B774;
+    position: absolute;
+    bottom: 204px;
+    left: 761px;
+}

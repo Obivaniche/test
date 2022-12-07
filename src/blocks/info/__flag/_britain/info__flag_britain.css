@@ -1,0 +1,22 @@
+.info__flag_britain {
+    width: 160px;
+    height: 160px;
+    transform: rotate(-82deg);
+    animation: show-up-britain 1s 3.4s forwards linear 1, rotate-britain 10s 6s linear infinite; 
+}
+
+@keyframes show-up-britain {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        padding-bottom: 120px;
+    }
+}
+
+@keyframes rotate-britain {
+    100% {
+        transform:rotate(278deg);
+    }
+}

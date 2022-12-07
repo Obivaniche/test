@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__container">
+                <img class="header__logo" src="<%=require('./images/logo.svg')%>" alt="logo">
+                <div class="menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__container">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a class="menu__link" href="#">Mobile Top Up</a>
+                            </li>
+                            <li class="menu__item"><a class="menu__link" href="#">About</a>
+                            </li>
+                            <li class="menu__item"><a class="menu__link" href="#">Rate</a>
+                            </li>
+                            <li class="menu__item"><a class="menu__link" href="#">Help</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <button class="button header__signup-button">Sign Up</button>
+            </div>
+        </header>
+        <main class="content">
+            <div class="info">
+                <h1 class="info__title">Now Buy Your PIN&nbsp;or <a class="info__link" href="#">Top Up</a>
+                    With&nbsp;Bank Transfer</h1>
+                <p class="info__descripton">We Make international calling simple, reliable, and cheap based on your
+                    unique calling behavior.</p>
+                <button class="button info__button">Get Started</button>
+                <form class="form">
+                    <input class="form__input" type="text" value="" minlength="2" maxlength="30" pattern="[^!@#$%^&*()_]" title="Данные символы недопустимы !@#$%^&*()_"required placeholder="Where do you want to call?">
+                    <button class="button form__submit-button" type="submit"><img class="form__botton-image"
+                            src="<%=require('./images/search-icon.svg')%>" alt="search"></button>
+                </form>
+                <div class="info__users-info">
+                    <div class="info__icons-row">
+                        <span class="info__icon">
+                            <img class="info__icon-img" src="<%=require('./images/add-icon.svg')%>">
+                        </span>
+                        <span class="info__icon">
+                            <img class="info__icon-img" src="<%=require('./images/user-1.png')%>g">
+                        </span>
+                        <span class="info__icon">
+                            <img class="info__icon-img" src="<%=require('./images/user-2.png')%>">
+                        </span>
+                        <span class="info__icon">
+                            <img class="info__icon-img" src="<%=require('./images/user-3.png')%>">
+                        </span>
+                    </div>
+                    <p class="info__text">45k+ Regular User. <a class="info__link" href="#">View Price Plan</a></p>
+                </div>
+                <div class="info__orbit">
+                    <img class="info__flag info__flag_another-1" src="<%=require('./images/flag-1.svg')%>"></img>
+                    <img class="info__flag info__flag_britain" src="<%=require('./images/flag-2.svg')%>"></img>
+                    <img class="info__flag info__flag_italy" src="<%=require('./images/flag-3.svg')%>"></img>
+                    <img class="info__flag info__flag_india" src="<%=require('./images/flag-4.svg')%>"></img>
+                    <img class="info__flag info__flag_another-2" src="<%=require('./images/flag-5.svg')%>"></img>
+                </div>
+                    <div class="info__circle"></div>
+                    <img class="info__main-image" src="<%=require('./images/main-img.png')%>" alt="girl">
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

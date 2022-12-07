@@ -1,0 +1,22 @@
+.info__flag_india {
+    width: 140px;
+    height: 140px;
+    transform: rotate(53deg);
+    animation: show-up-india 1s 4.2s forwards linear 1, rotate-circle-india 10s 6s linear infinite;
+}
+
+@keyframes show-up-india {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        padding-bottom: 130px;
+    }
+}
+
+@keyframes rotate-circle-india {
+    100% {
+        transform:rotate(413deg);
+    }
+}
