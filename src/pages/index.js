@@ -12,6 +12,9 @@ fetch('https://baconipsum.com/api/?type=all-meat&sentences=1&start-with-lorem=1'
         descriptonElement.textContent = res;
     });
 
+/* Сылки */
+const menuLinks = document.querySelectorAll('.menu__link[data-goto]');
+
 /* Открытие меню */
 const menuIcon = document.querySelector('.menu__icon');
 const menuContainer = document.querySelector('.menu__container');
