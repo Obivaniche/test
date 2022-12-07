@@ -1,0 +1,1 @@
+(()=>{"use strict";descriptonElement=document.querySelector(".info__descripton"),fetch("https://baconipsum.com/api/?type=all-meat&sentences=1&start-with-lorem=1").then((function(t){return t.json()})).then((function(t){descriptonElement.textContent=t}))})();
