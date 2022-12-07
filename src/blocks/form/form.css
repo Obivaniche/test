@@ -1,7 +1,18 @@
 .form {
-    margin: 50px 0 0 0;
-    padding: 0 0 0 0;
-    width: 597px;
+    margin: 40px auto 0 auto;
+    padding: 0;
+    width: 300px;
     height: 62px;
     position: relative;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .form {
+        margin: 50px 0 0 0;
+        width: 597px;
+        height: 62px;
+        position: relative;
+    }
+    
 }

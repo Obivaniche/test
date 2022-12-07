@@ -1,8 +1,21 @@
 .header__signup-button {
-    margin: 30px 141px 0 242px;
+    margin: 20px 0 0 0;
     padding: 0;
     width: 108px;
     height: 42px;
     font-size: 16px;
     cursor: pointer;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .header__signup-button {
+        margin: 30px 141px 0 242px;
+        padding: 0;
+        width: 108px;
+        height: 42px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
 }

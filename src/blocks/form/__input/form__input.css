@@ -1,12 +1,22 @@
 .form__input {
-  width: 597px;
+  width: 260px;
   height: 62px;
   padding: 0 0 0 40px;
-  margin: 0 0 0 0;
+  margin: 0;
   border: none;
   border-radius: 100px;
   outline: none;
   background: #FFFFFF;
   color: #A1A1A1;
-  font-size: 16px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1400px) {
+
+  .form__input {
+    width: 597px;
+    height: 62px;
+    font-size: 16px;
+  }
+
 }

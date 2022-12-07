@@ -1,8 +1,20 @@
 .info__descripton {
-    margin: 22px 0 0 0;
-    padding: 0 0 0 0;
-    width: 444px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    padding: 0;
+    width: 200px;
     font-size: 15px;
     line-height: 26px;
     color: #7C7C7C;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .info__descripton {
+        margin: 22px 0 0 0;
+        width: 444px;
+        font-size: 15px;
+        line-height: 26px;
+        color: #7C7C7C;
+    }
 }

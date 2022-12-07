@@ -1,4 +1,15 @@
 .info__icons-row {
     display: inline-flex;
     flex-direction: row-reverse;
+    margin: 0 0 0 20px;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .info__icons-row {
+        display: inline-flex;
+        flex-direction: row-reverse;
+        margin: 0;
+    }
+    
 }

@@ -2,7 +2,7 @@
     position: absolute;
     padding: 0;
     top: 4px;
-    right: -34px;
+    right: 4px;
     width: 55px;
     height: 55px;
     border: none;
@@ -12,4 +12,24 @@
 
 .form__submit-button:before {
     content: "";
+}
+
+@media screen and (min-width: 1400px) {
+
+    .form__submit-button {
+        position: absolute;
+        padding: 0;
+        top: 4px;
+        right: -34px;
+        width: 55px;
+        height: 55px;
+        border: none;
+        border-radius: 100px;
+        cursor: pointer;
+    }
+
+    .form__submit-button:before {
+        content: "";
+    }
+
 }

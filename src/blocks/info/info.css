@@ -1,8 +1,22 @@
 .info {
-    margin: 0 0 0 149px;
-    min-width: 320px;
-    max-width: 1400px;
-    padding: 118px 0 44px 0;
+    display: block;
+    width: 320px;
+    margin: 0 auto 0 auto;
+    padding: 40px 0 657px 0;
+    text-align: center;
     position: relative;
     overflow: hidden;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .info {
+        margin: 0 0 0 149px;
+        width: 1400px;
+        padding: 118px 0 44px 0;
+        position: relative;
+        overflow: hidden;
+        text-align: left;
+    }
+
 }

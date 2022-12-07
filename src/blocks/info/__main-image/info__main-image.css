@@ -1,8 +1,20 @@
 .info__main-image {
     position: absolute;
-    bottom: 0;
-    left: 699px;
-    width: 400px;
+    display: block;
+    margin: 100px auto 0 auto;
+    width: 320px;
     height: 557px;
     object-fit: cover;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .info__main-image {
+        position: absolute;
+        bottom: 0;
+        left: 720px;
+        width: 400px;
+    }
+    
 }

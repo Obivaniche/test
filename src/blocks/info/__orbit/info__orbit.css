@@ -4,6 +4,20 @@
     height: 450px;
     border-radius: 50%;
     border: solid 2px #E8E8E8;
-    bottom: 151px;
-    left: 671px;
+    display: block;
+    margin: 40px  0 0 -65px;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .info__orbit {
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        border: solid 2px #E8E8E8;
+        bottom: 151px;
+        left: 691px;
+        margin: 0;
+    }
 }

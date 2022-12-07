@@ -4,6 +4,22 @@
     border-radius: 50%;
     background-color: #48B774;
     position: absolute;
-    bottom: 204px;
-    left: 761px;
+    display: block;
+    margin: 170px 0 0 20px;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .info__circle {
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        background-color: #48B774;
+        position: absolute;
+        bottom: 204px;
+        left: 761px;
+        bottom: 204px;
+        right: 210px;
+    }
+    
 }
