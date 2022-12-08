@@ -1,0 +1,10 @@
+@media screen and (max-width: 1400px) {
+
+    .header__signup-button_pc {
+        margin: -10px 0 0 242px;
+        border: none;
+        background-color: #48b774;
+        display: none;
+    }
+
+}

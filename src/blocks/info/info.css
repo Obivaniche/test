@@ -13,7 +13,7 @@
     .info {
         display: block;
         width: 480px;
-
+        overflow: visible;
     }
 
 }
