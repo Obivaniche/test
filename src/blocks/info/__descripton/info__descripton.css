@@ -8,6 +8,15 @@
     color: #7C7C7C;
 }
 
+@media screen and (min-width: 768px) {
+
+    .info__descripton {
+        width: 400px;
+
+    }
+
+}
+
 @media screen and (min-width: 1400px) {
 
     .info__descripton {

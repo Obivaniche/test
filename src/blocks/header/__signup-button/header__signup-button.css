@@ -5,17 +5,22 @@
     height: 42px;
     font-size: 16px;
     cursor: pointer;
+    border: 2px solid #FFFFFF;
+    background-color: #ff8345;
 }
 
 @media screen and (min-width: 1400px) {
 
     .header__signup-button {
-        margin: 30px 141px 0 242px;
+        margin: -10px 0 0 242px;
         padding: 0;
         width: 108px;
         height: 42px;
         font-size: 16px;
         cursor: pointer;
+        border: none;
+        background-color: #48b774;
+        display: none;
     }
 
 }

@@ -3,3 +3,12 @@
     display: flex;
     height: 38px;
 }
+
+@media screen and (min-width: 768px) {
+
+    .info__users-info {
+        width: 480px;
+        justify-content: center;
+    }
+
+}
